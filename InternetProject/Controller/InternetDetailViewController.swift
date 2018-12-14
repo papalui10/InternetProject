@@ -57,7 +57,7 @@ public class InternetDetailViewController: UIViewController
         updateView()
     }
     
-    private func loadURL(wevAddress: String) -> Void
+    private func loadURL(webAddress: String) -> Void
     {
         let currentURL = URL(string: webAddress)
         let currentWebRequest = URLRequest(url: currentURL!)
