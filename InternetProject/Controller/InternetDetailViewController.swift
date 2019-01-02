@@ -12,6 +12,7 @@ import WebKit
 public class InternetDetailViewController: UIViewController
 {
     
+    
     @IBOutlet weak var webViewer: WKWebView!
     @IBOutlet weak var screenTitle: UILabel!
     
